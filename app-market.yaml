@@ -1,0 +1,23 @@
+debug: true
+serverConfig:
+  port: 9001
+  readTimeout: 0
+  writeTimeout: 0
+  tls: false
+  tlsKey: ""
+  tlsCert: ""
+  tlsCACert: ""
+  tlsVerify: false
+redisConfig:
+  addr: 127.0.0.1:6380
+  db: 1
+mongoConfig:
+  addr: 127.0.0.1:27017
+  username: ""
+  password: ""
+  db: "market"
+taskConfig:
+  broker: "redis://127.0.0.1:6380"
+  default_queue: "machinery_tasks"
+  result_backend: "redis://127.0.0.1:6380"
+  results_expire_in: 360000

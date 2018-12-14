@@ -1,0 +1,33 @@
+package: transwarp/tos-app-market
+import:
+- package: walmclient
+  repo: ssh://git@172.16.1.41:10022/app/go-walmclient.git
+  version: master
+- package: github.com/spf13/cobra
+  version: 0.0.3
+- package: github.com/spf13/pflag
+  version: ^1.0.1
+- package: github.com/ghodss/yaml
+  version: ^1.0.0
+- package: github.com/go-redis/redis
+  version: 6.14.2
+- package: github.com/RichardKnop/machinery
+  version: 1.4.5
+- package: github.com/emicklei/go-restful
+  version: 2.8.0
+- package: github.com/emicklei/go-restful-openapi
+  version: 1.0.0
+- package: github.com/go-openapi/spec
+  version: 0.17.2
+- package: github.com/sirupsen/logrus
+  version: 1.2.0
+- package: github.com/mongodb/mongo-go-driver
+  version: 0.1.0
+- package: github.com/thoas/stats
+- package: github.com/antihax/optional
+- package: golang.org/x/oauth2
+testImport:
+- package: github.com/onsi/ginkgo
+  version: ^1.7.0
+- package: github.com/onsi/gomega
+  version: ^1.4.3

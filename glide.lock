@@ -1,0 +1,200 @@
+hash: 48017a2da6380991facb3c87835355519e1847888268ea1784dd702071872302
+updated: 2018-12-11T22:48:47.164793828+08:00
+imports:
+- name: github.com/antihax/optional
+  version: ca021399b1a6796ecb758292c6311ce0b28857fc
+- name: github.com/aws/aws-sdk-go
+  version: 760741802ad40f49ae9fc4a69ef6706d2527d62e
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/json/jsonutil
+  - private/protocol/jsonrpc
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - service/dynamodb
+  - service/dynamodb/dynamodbattribute
+  - service/dynamodb/dynamodbiface
+  - service/sqs
+  - service/sqs/sqsiface
+  - service/sts
+- name: github.com/bradfitz/gomemcache
+  version: bc664df9673713a0ccf26e3b55a673ec7301088b
+  subpackages:
+  - memcache
+- name: github.com/emicklei/go-restful
+  version: 3eb9738c1697594ea6e71a7156a9bb32ed216cf0
+  subpackages:
+  - log
+- name: github.com/emicklei/go-restful-openapi
+  version: b7062368c258c9e8f8cbe9dd2e6aebfa1b747be6
+- name: github.com/ghodss/yaml
+  version: 0ca9ea5df5451ffdf184b4428c902747c2c11cd7
+- name: github.com/go-ini/ini
+  version: 9c8236e659b76e87bf02044d06fde8683008ff3e
+- name: github.com/go-openapi/jsonpointer
+  version: 46af16f9f7b149af66e5d1bd010e3574dc06de98
+- name: github.com/go-openapi/jsonreference
+  version: 13c6e3589ad90f49bd3e3bbe2c2cb3d7a4142272
+- name: github.com/go-openapi/spec
+  version: 5bae59e25b21498baea7f9d46e9c147ec106a42e
+- name: github.com/go-openapi/swag
+  version: f3f9494671f93fcff853e3c6e9e948b3eb71e590
+- name: github.com/go-redis/redis
+  version: b3d9bf10f6666b2ee5100a6f3f84f4caf3b4e37d
+- name: github.com/golang/protobuf
+  version: 1643683e1b54a9e88ad26d98f81400c8c9d9f4f9
+  subpackages:
+  - proto
+- name: github.com/gomodule/redigo
+  version: e8fc0692a7e26a05b06517348ed466349062eb47
+  subpackages:
+  - redis
+- name: github.com/google/uuid
+  version: 8c31c18f31ede9fc8eae72290a7e7a8064e9b3e3
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/jmespath/go-jmespath
+  version: 0b12d6b521d83fc7f755e7cfc1b1fbdd35a01a74
+- name: github.com/json-iterator/go
+  version: f2b4162afba35581b6d4a50d3b8f34e33c144682
+- name: github.com/kelseyhightower/envconfig
+  version: dd1402a4d99de9ac2f396cd6fcb957bc2c695ec1
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: 5c8c8bd35d3832f5d134ae1e1e375b69a4d25242
+- name: github.com/mailru/easyjson
+  version: 2f5df55504ebc322e4d52d34df6a1f5b503bf26d
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 05fbef0ca5da472bbf96c9322b84a53edc03c9fd
+- name: github.com/mongodb/mongo-go-driver
+  version: 29905d4bda472574c8b499e2f93b5b2747d8fbd7
+- name: github.com/opentracing/opentracing-go
+  version: 8b5a441dc60e8d9bb9bf9d22060b6d94fa599983
+  subpackages:
+  - ext
+  - log
+- name: github.com/PuerkitoBio/purell
+  version: 8a290539e2e8629dbc4e6bad948158f790ec31f4
+- name: github.com/PuerkitoBio/urlesc
+  version: 5bd2802263f21d8788851d5305584c82a5c75d7e
+- name: github.com/RichardKnop/logging
+  version: b1d5d44c82d6c9fb6c8e8dad28412163586fd8ac
+- name: github.com/RichardKnop/machinery
+  version: 759f2c738035edd4a21b846ae6aafcf5d02c5026
+  subpackages:
+  - v1
+  - v1/backends/amqp
+  - v1/backends/dynamodb
+  - v1/backends/eager
+  - v1/backends/iface
+  - v1/backends/memcache
+  - v1/backends/mongo
+  - v1/backends/redis
+  - v1/backends/result
+  - v1/brokers/amqp
+  - v1/brokers/eager
+  - v1/brokers/errs
+  - v1/brokers/iface
+  - v1/brokers/redis
+  - v1/brokers/sqs
+  - v1/common
+  - v1/config
+  - v1/log
+  - v1/retry
+  - v1/tasks
+  - v1/tracing
+- name: github.com/RichardKnop/redsync
+  version: 54b27db64c180751e7049321a2e109ff220ccdcc
+- name: github.com/sirupsen/logrus
+  version: bcd833dfe83d3cebad139e4a29ed79cb2318bf95
+- name: github.com/spf13/cobra
+  version: ef82de70bb3f60c65fb8eebacbb2d122ef517385
+- name: github.com/spf13/pflag
+  version: 298182f68c66c05229eb03ac171abe6e309ee79a
+- name: github.com/streadway/amqp
+  version: a314942b2fd9dde7a3f70ba3f1062848ce6eb392
+- name: github.com/thoas/stats
+  version: fc5c06ed3df0e436bc483ccc97053cd98930ca61
+- name: golang.org/x/crypto
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+  - idna
+- name: golang.org/x/oauth2
+  version: a6bd8cefa1811bd24b86f8902872e4e8225f74c4
+  subpackages:
+  - internal
+- name: golang.org/x/sys
+  version: 95c6576299259db960f6c5b9b69ea52422860fce
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - cases
+  - internal
+  - internal/tag
+  - language
+  - runes
+  - secure/bidirule
+  - secure/precis
+  - transform
+  - unicode/bidi
+  - unicode/norm
+  - width
+- name: google.golang.org/appengine
+  version: 4a4468ece617fc8205e99368fa2200e9d1fad421
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: gopkg.in/mgo.v2
+  version: 9856a29383ce1c59f308dd1cf0363a79b5bef6b5
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+- name: gopkg.in/yaml.v2
+  version: 670d4cfef0544295bc27a114dbac37980d83185a
+- name: walmclient
+  version: 7ef6f2ecc69beaabf5ecdee3eaa2b7c1d0ddb5a8
+  repo: ssh://git@172.16.1.41:10022/app/go-walmclient.git
+testImports:
+- name: github.com/onsi/ginkgo
+  version: 2e1be8f7d90e9d3e3e58b0ce470f2f14d075406f
+- name: github.com/onsi/gomega
+  version: 65fb64232476ad9046e57c26cd0bff3d3a8dc6cd
